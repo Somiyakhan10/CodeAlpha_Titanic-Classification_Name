@@ -5,7 +5,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
 
 # Load the dataset
-data = pd.read_csv('titanic.csv')
+data = pd.read_csv('tested.csv')
 
 # Data Preprocessing
 data['Age'].fillna(data['Age'].median(), inplace=True)
